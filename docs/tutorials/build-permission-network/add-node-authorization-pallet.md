@@ -141,7 +141,7 @@ construct_runtime!(
         /* --snip-- */
 
         /*** Add This Line ***/
-        NodeAuthorization: pallet_node_authorization::{Module, Call, Storage, Event<T>, Config<T>},
+        NodeAuthorization: pallet_node_authorization::{Pallet, Call, Storage, Event<T>, Config<T>},
 
         /* --snip-- */
 
